@@ -1,0 +1,12 @@
+Cores usadas:
+
+white
+#943203
+#03a41b
+rgba(207, 207, 207, 0.2)
+rgb(3, 128, 7)
+#f5f5f5
+#317d15
+#333
+#f1f1f1dc
+#FFFFF
