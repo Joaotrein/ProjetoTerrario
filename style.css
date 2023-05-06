@@ -154,9 +154,8 @@ footer a:hover{
 /* Primeiro Bloco */
 
 .primeiro_bloco {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: 100vh;
   background-image: url("https://images6.alphacoders.com/382/382703.jpg");
   background-size: cover;
   background-position: center;
@@ -188,15 +187,15 @@ footer a:hover{
 /* Segundo Bloco */
 
 .segundo_bloco {
-  height: 190vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .texto1 {
-  margin-top: 100%;
-  max-width: 800px;
+  margin-top: auto;
+  max-width: 50vw;
   padding: 20px;
   text-align: justify;
   color: #333;
@@ -218,14 +217,14 @@ footer a:hover{
 .terceiro_bloco {
   display: flex;
   background-color: #f1f1f1dc;
-  margin-top: 50%;
-  height: auto;
+  margin-top: 100%;
   justify-content: center;
   align-items: center;
 }
 
 .tema {
-  width: 47%;
+  width: auto;
+  padding-right: 10vw;
   margin: 8%;
   font-size: 18px;
   line-height: 1.2;
@@ -234,15 +233,14 @@ footer a:hover{
 
 .imagem_texto2 {
   display: flex;
-  width: 65%;
-  margin-top: 30px;
+  width: auto;
+  margin-top: 5vh;
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .texto2{
   display: inline-block;
-  max-height: 100px;
-  max-width: 700px;
+  max-width: 40vw;
   text-align: justify;
   color: #252525;
   font-size: 18px;
@@ -285,7 +283,7 @@ footer a:hover{
 /* FAIXA VLOG */
 
 .vlog_bloco {
-  margin: 100px 0 0 0;
+  margin: 5vh 0 10vh 0;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -296,20 +294,21 @@ footer a:hover{
   border: 0;
   background-color: #e0e0e0;
   font-weight: 700;
-  padding: 20px 30px;
+  padding: 3vh 3vw;
   color: #943203;;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .vlog{
-  padding-right: 90px;
+  padding-right: 5vw;
+  width: 40vw;
 }
 
 .vlog_bloco h2{
-  padding-bottom: 10px;
+  padding-bottom: 4vh;
   font-size: 40px;
-  text-decoration: underline;
+  text-decoration: underline 3px;
   text-align: center;
   color: #943203;
   font-weight: 700;
@@ -319,13 +318,12 @@ footer a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
 }
 
 /* Quarto Bloco */
 
 .quarto_bloco {
-  margin: 100px 0 0 0;
+  margin: 12vh 0 0 0;
   height: auto;
   display: flex;
   justify-content: center;
@@ -341,21 +339,21 @@ footer a:hover{
 }
 
 .quem_somos hr {
-  width: 40%;
+  width: 37vw;
   border-radius: 10%;
   border: none;
   border-bottom: 5px solid #943203;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 5vh;
 }
 
 #ultima_linha{
-  width: 65%;
+  width: 37vw;
   border-radius: 10%;
   border: none;
   border-bottom: 5px solid #943203;
   margin: auto;
-  margin: 50px 0;
+  margin: 5vh 0;
 }
 
 .imagens_pessoas {
@@ -363,15 +361,15 @@ footer a:hover{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 60%;
+  width: 55vw;
   margin: auto;
 }
 
 .imagens_aluno {
-  width: 200px;
-  height: 200px;
+  width: 10vw;
+  height: 20vh;
   border-radius: 50%;
-  margin: 20px;
+  margin: 1vw;
   transition: transform 0.2s ease-in-out;
   box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
 }
@@ -407,16 +405,16 @@ dialog h3 {
 }
 
 .imagem_modal {
-  width: 200px;
-  height: 200px;
+  width: 10vw;
+  height: 20vh;
   border-radius: 50%;
-  margin: 20px;
+  margin: 1vw;
 }
 
 dialog p {
   display: flex;
-  max-width: 800px;
-  padding: 30px;
+  max-width: 30vw;
+  padding: 2vw;
   text-align: justify;
   color: #333;
   font-size: 18px;
@@ -424,15 +422,15 @@ dialog p {
 }
 
 #fechar1, #fechar2, #fechar3, #fechar4, #fechar5, #fechar6, #fechar7, #fechar8 {
-  width: 100px;
-  height: 50px;
+  width: 8vw;
+  height: 5vh;
   border: 0;
   background-color: rgb(3, 128, 7);
   color: #FFFFFF;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 20px;
-  margin: 15px;
+  margin: 1vw;
 }
 
 #fechar1:hover, #fechar2:hover, #fechar3:hover, #fechar4:hover, #fechar5:hover, #fechar6:hover, #fechar7:hover,#fechar8:hover{
@@ -441,167 +439,107 @@ dialog p {
   color: #FFFFFF;
 }
 
-@media all and (max-width: 900px) {
-  h1 {
-    font-size: 50px;
-  }
-
+@media all and (max-width: 425px) {
+  
   header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-.titulo{
-  height: 100%;
-}
-
-  a {
-    margin: 15px;
-    font-size: 16px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  h4 {
-    font-size: 40px;
-  }
-
-  footer {
-    height: 30%;
+    display: none;
   }
 
   .primeiro_bloco {
-    height: 100vh;
+    width: 100%;
+    height: 100vh; 
   }
-
-  .titulo {
-    font-size: 50px;
-    padding: 0 10px;
-  }
-
+   
   .titulo hr {
-    width: 50%;
+    width: 80%;
   }
+
+.segundo_bloco{
+   width: 100%;
+   height: 100vh;
+}
+
+.texto1{
+  max-width: 200vw;
+}
 
 .terceiro_bloco {
   display: flex;
-  margin-top: 10%;
+  margin-top: 185vh;
   height: auto;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+
 }
 
 .tema {
-  width: 47%;
-  margin: 8%;
+  max-width: 200vw;
   font-size: 18px;
   line-height: 1.2;
+  border: none;
 }
 
 .imagem_texto2 {
-  display: flex;
-  width: 65%;
-  margin-top: 30px;
+  margin: auto;
+  padding-top: 2vh;
+  box-shadow: none;
+  width: 72vw;
 }
 
 .texto2{
-  display: inline-block;
-  max-height: 100px;
-  max-width: 700px;
-  text-align: justify;
+  max-width: 200vw;
   font-size: 18px;
   line-height: 1.5;
 }
 
 .inscrever{
-  border-radius: 8px;
-  padding: 45px;
-  display:inline-block;
-  transition: transform 0.2s ease-in;
+  margin-top: 10vh;
+  width: 100vw;
 }
 
-  #inscricao {
-    margin: 10px auto;
-    height: 90px;
-    width: 180px;
-    font-size: 16px;
-  }
-
-  .inscrever h4 {
-    font-size: 25px;
-    width: 200px;
-  }
-
+#inscricao {
+  margin: auto;
+  height: 14vh;
+    
 }
 
-@media all and (max-width: 1300px) {
-  h1 {
-    font-size: 70px;
-  }
+.inscrever h4 {
+  font-size: 35px;
+}
 
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
+.vlog_materiais{
 
-  a {
-    margin: 15px;
-    font-size: 16px;
-  }
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
 
-  h2 {
-    font-size: 30px;
-  }
+.vlog{
+  margin: auto;
+  width: 80vw;
+}
 
-  h4 {
-    font-size: 40px;
-  }
+.vlog_materiais ul{
+  width: 70vw;
+  padding: 3vh 3vw;
+  margin-top: 7vh;
+}
 
-  footer {
-    height: 30%;
-  }
+.imagens_pessoas{
+  width: 100vw;
+}
 
-  .primeiro_bloco {
-    height: 100%;
-  }
+.imagens_aluno{
+    width: 40vw;
+    padding: 3vw;
+    box-shadow: none;
+}
 
-  .titulo {
-    font-size: 50px;
-    padding: 0 10px;
-  }
+.texto_footer a{
+  font-size: 16px;
+}
 
-  .titulo hr {
-    width: 40%;
-  }
+.imagem_modal{
+  width: 50vw;
+}
 
-  .segundo_bloco {
-    height: 310vh;
-  }
-
-  .imagem_texto1{
-    width: 80%;
-    margin-bottom: 100px;
-  }
-  
-  .tema {
-    padding-right: 100px;
-  }
-  
-  .imagem_texto2 {
-    width: 75%;
-  }
-  
-  .inscrever{
-   width: 30%;
-  }
-
-  .inscrever:hover{
-    transform: scale(1.1);
-  }
-
-  .imagens_pessoas{
-      width: 80%;
-  }
 }
