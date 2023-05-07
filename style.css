@@ -29,7 +29,9 @@ h2 {
 }
 
 h4 {
-  font-size: 50px;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
   color: #943203;
 }
 
@@ -187,7 +189,8 @@ footer a:hover{
 /* Segundo Bloco */
 
 .segundo_bloco {
-  height: 25vh;
+  height: auto;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,7 +198,7 @@ footer a:hover{
 
 .texto1 {
   margin-top: auto;
-  max-width: 50vw;
+  max-width: 50vw;  
   padding: 20px;
   text-align: justify;
   color: #333;
@@ -205,8 +208,7 @@ footer a:hover{
 
 .imagem_texto1 {
   display: flex;
-  height: 100%;
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-top: 50px;
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
@@ -216,8 +218,8 @@ footer a:hover{
 
 .terceiro_bloco {
   display: flex;
+  height: auto;
   background-color: #f1f1f1dc;
-  margin-top: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -251,6 +253,7 @@ footer a:hover{
   background-color: #e0e0e0;
   border-radius: 8px;
   padding: 55px;
+  max-width: 20vw;
   display:inline-block;
   transition: transform 0.2s ease-in;
 }
@@ -269,7 +272,7 @@ footer a:hover{
   color: #FFFFFF;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -439,12 +442,62 @@ dialog p {
   color: #FFFFFF;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 465px) {
+
+  header {
+    display: none;
+  }
   
+  .titulo{
+    margin-bottom: 100vh;
+  }
+
+ .texto1 {
+  margin-bottom: 20vh;
+}
+.tema{
+  margin-top: 60vh;
+}
+}
+
+@media all and (max-width: 375px) {
+
   header {
     display: none;
   }
 
+  .titulo{
+    margin-bottom: 100vh;
+  }
+
+ .texto1 {
+  margin-bottom: 100vh;
+}
+.tema{
+  margin-top: 90vh;
+}
+}
+
+@media all and (max-width: 320px) {
+
+  header {
+    display: none;
+  }
+
+  .titulo{
+    margin-bottom: 100vh;
+  }
+
+ .texto1 {
+  margin-bottom: 200vh;
+}
+.tema{
+  margin-top: 130vh;
+}
+}
+
+@media all and (max-width: 1024px) {
+  
   .primeiro_bloco {
     width: 100%;
     height: 100vh; 
@@ -456,7 +509,7 @@ dialog p {
 
 .segundo_bloco{
    width: 100%;
-   height: 100vh;
+   height: 120vh;
 }
 
 .texto1{
@@ -465,7 +518,7 @@ dialog p {
 
 .terceiro_bloco {
   display: flex;
-  margin-top: 185vh;
+  margin-top: 100vh;
   height: auto;
   flex-direction: column;
 
@@ -492,19 +545,15 @@ dialog p {
 }
 
 .inscrever{
-  margin-top: 10vh;
-  width: 100vw;
+  margin: 5vh;
+  max-width: 200vw;
 }
 
 #inscricao {
   margin: auto;
-  height: 14vh;
-    
+  height: auto;
 }
 
-.inscrever h4 {
-  font-size: 35px;
-}
 
 .vlog_materiais{
 
@@ -525,12 +574,12 @@ dialog p {
 }
 
 .imagens_pessoas{
-  width: 100vw;
+  max-width: 200vw;
 }
 
 .imagens_aluno{
-    width: 40vw;
-    padding: 3vw;
+    width: 25vw;
+    height: 25vw;
     box-shadow: none;
 }
 
@@ -538,8 +587,18 @@ dialog p {
   font-size: 16px;
 }
 
-.imagem_modal{
+dialog{
   width: 50vw;
+}
+
+dialog p{
+  margin: auto;
+  max-width: 80vw;
+}
+
+.imagem_modal{
+  width: 25vw;
+  height: 25vw;
 }
 
 }
