@@ -29,7 +29,7 @@ h2 {
 }
 
 h4 {
-  font-size: 35px;
+  font-size: 21px;
   font-weight: 800;
   text-align: center;
   color: #943203;
@@ -224,36 +224,31 @@ footer a:hover{
   align-items: center;
 }
 
-.tema {
-  width: auto;
-  padding-right: 10vw;
-  margin: 8%;
+.texto2 {
+  margin-top: auto;
+  max-width: 50vw;  
+  padding-right: 2vw;
+  margin: 7%;
   font-size: 18px;
   line-height: 1.2;
   border-right: 5px solid #943203;
+  max-width: 60vw;
+  text-align: justify;
+  color: #252525;
 }
 
 .imagem_texto2 {
   display: flex;
-  width: auto;
+  width: 80%;
   margin-top: 5vh;
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
-}
-
-.texto2{
-  display: inline-block;
-  max-width: 40vw;
-  text-align: justify;
-  color: #252525;
-  font-size: 18px;
-  line-height: 1.5;
 } 
 
 .inscrever{
   background-color: #e0e0e0;
   border-radius: 8px;
-  padding: 55px;
-  max-width: 20vw;
+  padding: 10px;
+  max-width: 12vw;
   display:inline-block;
   transition: transform 0.2s ease-in;
 }
@@ -267,7 +262,7 @@ footer a:hover{
   margin: 25px auto;
   height: 100px;
   border: 0;
-  padding: 20px;
+  padding: 15px;
   background-color: rgb(3, 128, 7);
   color: #FFFFFF;
   border-radius: 5px;
@@ -442,59 +437,6 @@ dialog p {
   color: #FFFFFF;
 }
 
-@media all and (max-width: 465px) {
-
-  header {
-    display: none;
-  }
-  
-  .titulo{
-    margin-bottom: 100vh;
-  }
-
- .texto1 {
-  margin-bottom: 20vh;
-}
-.tema{
-  margin-top: 60vh;
-}
-}
-
-@media all and (max-width: 375px) {
-
-  header {
-    display: none;
-  }
-
-  .titulo{
-    margin-bottom: 100vh;
-  }
-
- .texto1 {
-  margin-bottom: 100vh;
-}
-.tema{
-  margin-top: 90vh;
-}
-}
-
-@media all and (max-width: 320px) {
-
-  header {
-    display: none;
-  }
-
-  .titulo{
-    margin-bottom: 100vh;
-  }
-
- .texto1 {
-  margin-bottom: 200vh;
-}
-.tema{
-  margin-top: 130vh;
-}
-}
 
 @media all and (max-width: 1024px) {
   
@@ -509,7 +451,8 @@ dialog p {
 
 .segundo_bloco{
    width: 100%;
-   height: 120vh;
+   height: 150vh;
+   margin-bottom: 150vh;
 }
 
 .texto1{
@@ -518,17 +461,15 @@ dialog p {
 
 .terceiro_bloco {
   display: flex;
-  margin-top: 100vh;
-  height: auto;
+  height: auto; 
   flex-direction: column;
-
 }
 
-.tema {
-  max-width: 200vw;
+.texto2 {
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.5;
   border: none;
+  font-size: 18px;
 }
 
 .imagem_texto2 {
@@ -538,11 +479,6 @@ dialog p {
   width: 72vw;
 }
 
-.texto2{
-  max-width: 200vw;
-  font-size: 18px;
-  line-height: 1.5;
-}
 
 .inscrever{
   margin: 5vh;
@@ -554,9 +490,7 @@ dialog p {
   height: auto;
 }
 
-
 .vlog_materiais{
-
   display: flex;
   height: auto;
   flex-direction: column;
