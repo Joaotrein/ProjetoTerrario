@@ -474,11 +474,11 @@ dialog p {
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1023px){
+/* @media screen and (min-width: 700px) and (max-width: 1023px){
   .texto2{
     margin-top: 35vh; 
   }
-}
+} */
 
 @media all and (max-width: 1024px) {
   
