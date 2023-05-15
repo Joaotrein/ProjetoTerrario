@@ -456,9 +456,9 @@ dialog p {
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 424px){
+@media screen and (min-width: 375px) and (max-width: 499px){
   .texto2{
-    margin-top: 150vh; 
+    margin-top: 100vh; 
   }
 }
 
@@ -470,7 +470,7 @@ dialog p {
 
 @media screen and (min-width: 500px) and (max-width: 1023px){
   .texto2{
-    margin-top: 60vh; 
+    margin-top: 55vh; 
   }
 }
 
