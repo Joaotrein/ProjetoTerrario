@@ -438,13 +438,13 @@ dialog p {
 }
 
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 1023px){
   header{
     display: none;
   }
 
 }
-@media screen and (min-width: 425px) and (max-width: 1023px) {
+@media screen and (min-width: 425px) and (max-width: 719px) {
   .texto2{
     margin-top: 130vh; 
   }
@@ -465,6 +465,12 @@ dialog p {
 @media screen and (min-width: 0px) and (max-width: 319px){
   .texto2{
     margin-top: 240vh; 
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1023px){
+  .texto2{
+    margin-top: 60vh; 
   }
 }
 
