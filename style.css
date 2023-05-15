@@ -444,21 +444,27 @@ dialog p {
   }
 
 }
-@media only screen and (width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 1023px) {
   .texto2{
     margin-top: 130vh; 
   }
 }
 
-@media only screen and (width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .texto2{
     margin-top: 220vh; 
   }
 }
 
-@media only screen and ( width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 424px){
   .texto2{
-     margin-top: 150vh;  
+    margin-top: 150vh; 
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 319px){
+  .texto2{
+    margin-top: 240vh; 
   }
 }
 
