@@ -444,11 +444,11 @@ dialog p {
   }
 
 }
-@media screen and (min-width: 425px) and (max-width: 719px) {
+/* @media screen and (min-width: 425px) and (max-width: 719px) {
   .texto2{
     margin-top: 130vh; 
   }
-}
+} */
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .texto2{
