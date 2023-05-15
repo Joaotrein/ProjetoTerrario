@@ -230,16 +230,16 @@ footer a:hover{
   padding-right: 2vw;
   margin: 7%;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.5;
   border-right: 5px solid #943203;
   max-width: 60vw;
   text-align: justify;
-  color: #252525;
+  color: #333;
 }
 
 .imagem_texto2 {
   display: flex;
-  width: 80%;
+  width: 60%;
   margin-top: 5vh;
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
 } 
@@ -437,9 +437,28 @@ dialog p {
   color: #FFFFFF;
 }
 
-@media all and (min-width: 320px) {
+
+@media only screen and (max-width: 425px){
   header{
-    display: hide;
+    display: none;
+  }
+
+}
+@media only screen and (width: 425px) {
+  .texto2{
+    margin-top: 130vh; 
+  }
+}
+
+@media only screen and (width: 320px) {
+  .texto2{
+    margin-top: 220vh; 
+  }
+}
+
+@media only screen and ( width: 375px) {
+  .texto2{
+    margin-top: 90vh; 
   }
 }
 
@@ -481,7 +500,7 @@ dialog p {
   margin: auto;
   padding-top: 2vh;
   box-shadow: none;
-  width: 72vw;
+  width: 80%;
 }
 
 
